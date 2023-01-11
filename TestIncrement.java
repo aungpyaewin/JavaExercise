@@ -5,7 +5,7 @@ public class TestIncrement {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int i; //Declaration for i
-		int iInc; //Declaration for  iInc
+		int iInc; //Declaration for iInc
 		
 		i = 9; //Assign 9 to i
 		
