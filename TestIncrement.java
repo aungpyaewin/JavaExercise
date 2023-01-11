@@ -4,17 +4,18 @@ public class TestIncrement {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int i; //Declare i
-		int iInc; //Declare iInc
+		int i; //Declaration for i
+		int iInc; //Declaration for  iInc
 		
 		i = 9; //Assign 9 to i
 		
-		iInc = i++; //Assign i++ to iInc
-		System.out.println("iInc for i++ = " + iInc); //Output for i++
-		System.out.println("i is " + i); //Output for i
+		iInc = i++; //postfix increment
+		System.out.println("iInc for i++ = " + iInc);
+		System.out.println("i is " + i);
 		
-		iInc = ++i; //Assign ++i to iInc
-		System.out.println("iInc for ++i = " + iInc); //Output for ++i
+		iInc = ++i; //prefix increment
+		System.out.println("iInc for ++i = " + iInc);
+		
 	}
 
 }
